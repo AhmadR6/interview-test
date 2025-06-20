@@ -40,6 +40,9 @@
 .card {
   max-width: 350px;
   max-height: 400px;
+  min-width: 300;
+  min-height: 350px;
+  flex-shrink: 0;
 
   background-color: rgba(252, 250, 248, 0.94);
   border-radius: 10px;
@@ -82,7 +85,7 @@
 
 .dialog {
   width: 50vw;
-  height: 40vh;
+  height: 50vh;
   border: none;
 }
 .dialog > .header {
